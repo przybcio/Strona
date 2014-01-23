@@ -9,7 +9,69 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+* {
+    border: 1px dashed black !;
+}
 
+span{
+    color: white;
+    font-family: courier;
+   
+}
+
+span#footer{
+    color: CECECE;
+}
+div {
+    width: 100%;
+    height: 100px;
+    background-color: blue !;
+    display: block;
+}
+div.mid_class{
+    display: inline-block;
+    width: 33%;
+}
+div#mid_left{
+    float:left;
+}
+div#mid_mid{
+    float:right;
+    position: absolute;
+    text-align: center;   
+    margin-left: 20px !imported;
+}
+div#mid_right{
+    float:right;
+}
+
+div#middle{
+background: #0000ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #0000ff 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0000ff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #0000ff 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #0000ff 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #0000ff 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #0000ff 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+div#header {
+ background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 0%, #0000ff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#0000ff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #000000 0%,#0000ff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #000000 0%,#0000ff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #000000 0%,#0000ff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #000000 0%,#0000ff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0000ff',GradientType=0 ); /* IE6-9 */
+
+}
+div#footer {
+    background-color: white;
+    background: white;
+}
 html,
 button,
 input,
